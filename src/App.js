@@ -4,9 +4,9 @@ import './App.css';
 import { Connection, PublicKey, clusterApiUrl } from '@solana/web3.js';
 import { Program, AnchorProvider, web3 } from '@project-serum/anchor';
 import idl from './idl.json';
+import kp from './keypair.json'
 import { Buffer } from 'buffer';
 window.Buffer = Buffer;
-import kp from './keypair.json'
 
 // SystemProgram is a reference to the Solana runtime!
 const { SystemProgram, Keypair } = web3;
